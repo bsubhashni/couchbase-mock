@@ -20,20 +20,6 @@ static void
 config_handler() {
     fprintf(stderr, "\n Got request for config");
     //Load the config from file
-
-    //Precalculated buffer size - just to avoid reallocs
-    char *buf[64000];
-
-/*    FILE *fp = fopen("config.json", "rb");
-    if(fp) {
-        while(!feof(source)) {
-            n = fread(buf, 1, size, fp);
-
-        }
-    }
-    fclose(fp);
-    fprintf("\nBuffer %s", buf);
-    */
 }
 
 
